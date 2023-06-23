@@ -1,0 +1,871 @@
+@font-face{
+    font-family: "Courgette Regular";
+    src: url(./Courgette-Regular.ttf);
+}
+*{ padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;}
+    
+    .headerone{
+        width: 100%;
+        font-family: "Courgette Regular";}
+    
+        .headone{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    .headoneone{
+        width: 70px;
+        height: 70px;
+    font-size: 35px;
+    margin: 20px 0 0 40px;
+    font-weight: bold;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;}
+
+    .headoneone a{
+    color: white;}
+    
+
+.headonetwo ul{
+    display: flex;
+    margin: 40px 40px 0 0;
+    flex-direction: row;}
+    
+
+.headonetwo ul li{
+    margin: 15px;}
+
+.headonetwo ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;}
+
+.headonetwo ul li a:hover{
+    color: rgb(218, 218, 2);}
+
+/* header orta yazi */
+
+.headtwo{
+    width: 100%;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;}
+
+.headtwo h1{
+    color: white;
+    font-size: 80px;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+font-weight: bold;}
+
+.headtwo h1 b{
+   color: rgb(218, 218, 2);}
+ 
+.headtwo div{
+    width: 65%;
+}
+
+/*header butonlar */
+
+.headthree{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px 0 230px 0;}
+    
+    .buttonone{
+        color: white;
+        width: 200px;
+        background-color: transparent;
+        transition: .5s;
+    height: 60px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid white;} 
+    
+
+.buttonone:hover{
+    background-color: rgba(255, 255, 255, 0.3) ;}
+
+.buttontwo{
+    color: white;
+    background-color: rgb(218, 218, 2);
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    transition: .5s;
+    border-radius: 4px;
+    margin-left: 30px;
+    border: none;} 
+
+.buttontwo:hover{
+    background-color: slateblue;}
+
+    /* background divi */
+
+    .backgroundone{
+        width: 1264px;
+        height: 865px;
+        position: fixed;
+        background-size: 100% 100%;
+        background-image: url(./3b8ad2c7b1be2caf24321c852103598a.jpg);
+        background-repeat: no-repeat;
+        z-index: -1;
+        top:0px;
+        left:0px;
+    }
+
+    /*  headerden sonraki ag */
+
+    .aboutwhite{
+        width: 100%;
+        padding: 20px 0 40px 0;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Courgette Regular";
+    }
+    .aboutwrite{
+        width: 80%;
+        text-align: center;
+        color: darkgray;}
+
+    .aboutwrite h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        padding: 50px 0px;
+        color: rgb(29, 29, 29);}
+
+        .rangeone{
+            width: 100%;
+            display: flex;
+            margin: 50px;
+            justify-content: space-around;
+            align-items: center;}
+
+.rangeoneone{
+    width: 300px;}
+.rangeonetwo{
+    width: 300px;}
+.rangeonethree{
+    width: 300px;}
+
+    
+    .rangeoneone input{
+        width: 300px;
+        background-color: tomato;
+        -webkit-appearance: none;
+        height: 4px;}
+        
+        .rangeoneone input::-webkit-slider-thumb{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            -webkit-appearance: none;
+         background-color: tomato;}
+
+    .rangeonetwo input{
+        width: 300px;
+        background-color: rgb(218, 218, 2);
+        -webkit-appearance: none;
+        height: 4px;}
+        
+        .rangeonetwo input::-webkit-slider-thumb{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            -webkit-appearance: none;
+         background-color:rgb(218, 218, 2);}
+
+    .rangeonethree input{
+        width: 300px;
+        background-color:rebeccapurple;
+        -webkit-appearance: none;
+        height: 4px;}
+        
+        .rangeonethree input::-webkit-slider-thumb{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            -webkit-appearance: none;
+         background-color: rebeccapurple;}
+
+.rangeoneone h1{
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    padding-top: 4px;
+    margin-left: 150px;
+    background-color: tomato;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+.rangeonetwo h1{
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    padding-top: 4px;
+    margin-left: 208px;
+    background-color: rgb(218, 218, 2);
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+.rangeonethree h1{
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    padding-top: 4px;
+    margin-left: 215px;
+    background-color: rebeccapurple;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+
+.rangeoneone b{
+    color:tomato;
+}
+.rangeonetwo b{
+    color:rgb(218, 218, 2);
+}
+.rangeonethree b{
+    color:rebeccapurple;
+}
+.rangeone input{
+    margin-bottom: 20px;
+}
+
+
+
+/* 2 ci ag biraz boz */
+
+.middlewhite{
+    width: 100%;
+    height: 200px;
+    font-family: "Courgette Regular";
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+   background-image: url(./download.jfif);
+   background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.middlewhite h1{
+    padding: 10px;
+     color: rgb(34, 34, 34);
+}
+.imageone{ width: 100%;
+display: flex;
+background-color: white;
+justify-content: space-evenly;
+flex-direction: row;}
+.imageone img{
+    width: 25%;
+    height: 25%;
+}
+
+.imageone img:hover{
+    opacity: 50%;
+}
+
+.purple{
+    width: 100%;
+    height: 600px;
+    background-image: url(./ce7f55d0ce9ec88c238f4f0f5731d809.jpg);
+   
+    background-size: 100%;
+    position: relative;}
+
+.purpleinside{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    opacity: 70%;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.purpleone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    opacity: 100%;
+    color: white;
+    top: 0px;
+    left: 0px;
+    align-items: center;}
+
+    .imagepurple{
+        width: 130px;
+        height: 130px;
+        background-image: url(./mike-muller-127x127.jpg);
+        border-radius: 50%;
+        margin-bottom: 40px;
+        background-size: 100%;}
+        
+
+        .purpleyazi{
+            width: 80%;
+            height: 140px;
+            background-color: purple;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .purpleone h1{
+            font-weight: bold;
+            margin: 40px 0;
+            font-size: 40px;
+        }
+        .purpleone h2{
+            font-weight: bold;
+            font-size: 30px;
+            margin: 30px 0;
+        }
+        
+.purpletwo{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left:563px;
+}
+
+        .purplebutton{
+            width: 16px;
+            height: 16px;
+            margin-right: 15px;
+            border: none;
+            border-radius: 50%;
+            background-color: white;}
+
+.purpletwo button:hover{
+opacity: 50%;
+}
+/* background mike miller */
+
+.middle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;
+    font-family: "Courgette Regular";
+    align-items: center;}
+
+    .middleone{
+        text-align: center;
+        width: 60%;
+        margin: 60px 0px;
+        color: rgb(124, 124, 124);}
+
+
+    .middleone h1{
+        margin-bottom: 10px;
+       color: black;}
+
+       .middletwo{
+           width: 100%;
+           color: rgb(124, 124, 124);
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           align-items: center;}
+
+           .middletwoone{
+               text-align: center;
+               width: 25%;}
+
+           .middletwotwo{
+               text-align: center;
+               width: 25%;}
+
+           .middletwothree{
+               text-align: center;
+               width: 25%;}
+
+           .middletwoone h1{
+               margin-bottom: 20px;
+               color: tomato;}
+
+           .middletwotwo h1{
+               margin-bottom: 20px;
+               color:rgb(218, 218, 2);}
+
+           .middletwothree h1{
+               margin-bottom: 20px;
+               color:rebeccapurple;}
+
+
+               .middlehard{
+                   width: 100%;
+                   background-color:rgb(0, 36, 35);
+                   display: flex;
+                   font-family: "Courgette Regular";
+                   flex-direction: column;
+               }
+        
+               .hardword{
+                   width: 100%;
+                   color:rgb(124, 124, 124);
+                   text-align: center;
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center; }
+
+                   .hardword h1{
+                       color: white; 
+                    margin: 60px 0  10px  0;}
+
+                       .hardword button{
+                           width: 150px;
+                           height: 40px;
+                           background-color:rgb(197, 197, 2);
+                           border: none;
+                           margin-top: 50px;
+                           color: white;
+                           transition: .6s;
+                           border-radius: 4px;  }
+
+.hardword button:hover{
+    background-color: purple;
+}
+
+.hardimage{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.hardimageone{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:rgb(124, 124, 124);
+    text-align: left;
+}
+
+.hardimageone div img{
+    width: 100%;
+    height: 200px;}
+
+.hardimageone h1{
+    margin: 20px 0;
+    color: rgb(7, 7, 7);}
+
+.hardimageone h2{
+    margin-top: 30px;
+    color: rgb(197, 197, 2);}
+.hardimageone h1:hover{
+    color: yellow;}
+
+.hardimageone h2:hover{
+    color: purple;}
+
+.hardimagetwo{
+    width: 30%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(124, 124, 124);
+    text-align: left;
+}
+
+.hardimagetwo div img{
+    width: 100%;
+    height: 200px;}
+
+.hardimagetwo h1{
+    margin: 20px 0;
+    color: rgb(7, 7, 7);}
+
+.hardimagetwo h2{
+    margin-top: 30px;
+    color: rgb(197, 197, 2);}
+    .hardimagetwo h1:hover{
+        color: yellow;}
+    
+    .hardimagetwo h2:hover{
+        color: purple;}
+
+
+.hardimagethree{
+    width: 30%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(124, 124, 124);
+    text-align: left;
+}
+
+.hardimagethree div img{
+    width: 100%;
+    height: 200px;}
+
+.hardimagethree h1{
+    margin: 20px 0;
+    color: rgb(7, 7, 7);}
+
+.hardimagethree h2{
+    margin-top: 30px;
+    color: rgb(197, 197, 2);}
+    .hardimagethree h1:hover{
+        color: yellow;}
+    
+    .hardimagethree h2:hover{
+        color: purple;}
+
+        .hardimageone div{
+            width: 100%;
+        }
+
+        .elave{
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* gold */
+
+        .gold{
+            width: 100%; text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 40px 0;
+            color: white;
+            background-color: goldenrod;
+            opacity: 90%;
+        }
+
+        .team{
+            width: 100%;
+            height: 450px;
+            background-color: rgb(216, 216, 216);
+            display: flex;
+            flex-direction: column;}
+
+            .teamone{
+                color: rgb(100, 100, 100);
+                margin-top: 50px;
+                text-align: center;}
+
+            .teamone h1{
+                margin-bottom: 10px;
+                color: black;}
+
+                .teamtwo{
+                    width: 100%;
+                    display: flex;
+                    margin-top: 80px;
+                    justify-content:space-evenly;
+                    flex-direction: row;
+                }
+
+
+                .teamtwoone{
+                    width: 300px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                }
+                .teamtwoone .teamimageone img{
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 15px;
+                    border-radius: 50%;}
+
+
+
+                .teamtwotwo{
+                    width: 300px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                }
+                .teamtwotwo .teamimagetwo img{
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 15px;
+                    border-radius: 50%;}
+
+
+                .teamtwothree{
+                    width: 300px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                }
+                .teamtwothree .teamimagethree img{
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 15px;
+                    border-radius: 50%;}
+
+.teamwordone{
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+}
+.teamwordtwo{
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+}
+.teamwordthree{
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+}
+.wordone{
+    width: 100%;
+    text-align: left;
+    color: rgb(124, 124, 124);}
+    .wordtwo{
+        width: 100%;
+        text-align: left;
+        color: rgb(124, 124, 124);}
+        .wordthree{
+            width: 100%;
+            text-align: left;
+            color: rgb(124, 124, 124);}
+            
+            .wordone h1{
+                color: black;}
+                .wordone h2{
+                    margin: 10px 0 20px 0;
+                    font-size: 20px;
+                    color: tomato;}
+
+            .wordtwo h1{
+                color: black;}
+                .wordtwo h2{
+                    margin: 10px 0 20px 0;
+                    font-size: 20px;
+                    color: rgb(197, 197, 2);}
+
+            .wordthree h1{
+                color: black;}
+                .wordthree h2{
+                    margin: 10px 0 20px 0;
+                    font-size: 20px;
+                    color: purple;}
+
+
+                    .iconone{
+                       width: 100%;
+                       display: flex;
+                       margin-top: 30px;
+                       flex-direction: row; }
+                       
+                    .iconone svg{
+                        width: 20px;
+                        margin-right: 10px;
+                        fill: tomato;
+                        height: 20px;}
+                    .icontwo{
+                       width: 100%;
+                       display: flex;
+                       margin-top: 15px;
+                       flex-direction: row; }
+
+                    .icontwo svg{
+                        width: 20px;
+                        fill:rgb(197, 197, 2);
+                        margin-right: 10px;
+                        height: 20px;}
+                    .iconthree{
+                       width: 100%;
+                       display: flex;
+                       margin-top: 30px;
+                       flex-direction: row; }
+
+                    .iconthree svg{
+                        width: 20px;
+                        fill:purple;
+                        margin-right: 10px;
+                        height: 20px;}
+
+                        .signin{ 
+                            font-family: "Courgette Regular";
+                            width: 100%;
+                            background-color: white;
+                            display: flex;
+                            flex-direction: column;}
+
+                            .signone{
+                                color:black;
+                                margin: 30px 0;
+                                text-align: center;}
+
+                                .signtwo{
+                                    width: 100%;
+                                    color: rgb(124, 124, 124);
+                                display: flex;
+                                padding: 0 30px;
+                            flex-direction: row;}
+
+                                .signtwo h3{
+                                    color: rgb(197, 197, 2);
+                                }
+                                .signtwoo{
+                                    width: 25%;
+                                }
+
+                                .signtwot{
+                                    width: 25%;
+                                }
+.signtwoth{
+    width: 25%;
+    margin: 10px 0 0 500px;
+}
+                                .signtwoth svg{
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 10px;
+                                    border: none;
+                                    border-radius: 50%;
+                                    fill:rgb(161, 87, 1)
+                                }
+                                .signtwoth svg:hover{
+                                    fill: black;}
+
+                                    .signthree{
+                                        width: 100%;
+                                        display: flex;
+                                        color: rgb(139, 139, 139);
+                                        flex-direction: row;
+                                        justify-content: space-evenly;
+                                        margin: 40px 0;
+                                    align-items: center;}
+
+                                        .signthree input{
+                                            padding-left: 20px;
+                                            width: 400px;
+                                            height: 40px;
+                                            border: 1px solid rgb(124, 124, 124); }
+
+                                            .signfour{
+                                                width: 100%;
+                                                height: 200px;
+                                                display: flex;
+                                                justify-content: center;
+                                            }
+                                            .signfour textarea{
+                                                width: 90%;
+                                                padding:20px 0 0 20px;
+                                                height:200px;
+                                                border: 1px solid rgb(216, 216, 216);
+                                            }
+                                            .signfive{
+                                                width: 150px;
+                                                margin: 30px 0 0 1050px;
+                                                display: flex;
+                                                padding-bottom: 30px;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+
+
+                                            .signfive button{
+                                                width: 150px;
+                                                height: 40px;
+                                                transition: .6s;
+                                                color: white;
+                                                border-radius: 5px;
+                                                border: none;
+                                                background-color: rgb(218, 218, 2);
+                                            
+                                            }
+                                            .signfive button:hover{
+                                                background-color: blue;
+                                            }
+                                            .end{
+                                                padding: 30px;
+                                                width: 100%;
+                                                background-color: rgb(31, 31, 31);
+                                                color: darkgrey;
+                                                display: flex;
+                                                font-size: 20px;
+                                            flex-direction: row;
+                                            }
+                                            .end a{ color: rgb(112, 112, 112);
+                                                transition: .5s;
+                                            margin: 10px;}
+                                            .end h1{
+                                                color: white;
+                                                font-size: 25px;
+                                            }
+.endone{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.endtwo{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.endthree{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.end a:hover{
+color: purple;
+}
+.finish{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(22, 22, 22);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.finish span{
+    color: rgb(124, 124, 124);
+}
